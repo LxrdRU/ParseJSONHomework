@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21D9B12578CE82F324315667 /* Pods_ParseJSONHomework_ParseJSONHomeworkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE569630DDCAC54E9D861A15 /* Pods_ParseJSONHomework_ParseJSONHomeworkUITests.framework */; };
+		62A02992F4E682AE42C5663A /* Pods_ParseJSONHomeworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B69971A57C98C65BC442A3D /* Pods_ParseJSONHomeworkTests.framework */; };
 		75D24C4525343C3A0040279D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D24C4425343C3A0040279D /* AppDelegate.swift */; };
 		75D24C4725343C3A0040279D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D24C4625343C3A0040279D /* SceneDelegate.swift */; };
 		75D24C4C25343C3A0040279D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D24C4A25343C3A0040279D /* Main.storyboard */; };
@@ -17,6 +19,7 @@
 		75D24C7B25343D570040279D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D24C7A25343D570040279D /* TableViewController.swift */; };
 		75D24C902536FA700040279D /* ValuteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D24C8F2536FA700040279D /* ValuteCell.swift */; };
 		75D24C98253702BA0040279D /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D24C97253702BA0040279D /* Welcome.swift */; };
+		88574BAF340BD4E5B858B483 /* Pods_ParseJSONHomework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C9F3BA29CB9367CAE36191 /* Pods_ParseJSONHomework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14C9F3BA29CB9367CAE36191 /* Pods_ParseJSONHomework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParseJSONHomework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B69971A57C98C65BC442A3D /* Pods_ParseJSONHomeworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParseJSONHomeworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47014CC229E6CA1044F08834 /* Pods-ParseJSONHomework-ParseJSONHomeworkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseJSONHomework-ParseJSONHomeworkUITests.debug.xcconfig"; path = "Target Support Files/Pods-ParseJSONHomework-ParseJSONHomeworkUITests/Pods-ParseJSONHomework-ParseJSONHomeworkUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		75D24C4125343C3A0040279D /* ParseJSONHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseJSONHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D24C4425343C3A0040279D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75D24C4625343C3A0040279D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +59,12 @@
 		75D24C7A25343D570040279D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		75D24C8F2536FA700040279D /* ValuteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuteCell.swift; sourceTree = "<group>"; };
 		75D24C97253702BA0040279D /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		96412A454BE86C5D5E11524D /* Pods-ParseJSONHomework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseJSONHomework.debug.xcconfig"; path = "Target Support Files/Pods-ParseJSONHomework/Pods-ParseJSONHomework.debug.xcconfig"; sourceTree = "<group>"; };
+		AE569630DDCAC54E9D861A15 /* Pods_ParseJSONHomework_ParseJSONHomeworkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParseJSONHomework_ParseJSONHomeworkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B020760102513C2C8E479E63 /* Pods-ParseJSONHomeworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseJSONHomeworkTests.release.xcconfig"; path = "Target Support Files/Pods-ParseJSONHomeworkTests/Pods-ParseJSONHomeworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		C82DC42C2920CDA997395D7C /* Pods-ParseJSONHomework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseJSONHomework.release.xcconfig"; path = "Target Support Files/Pods-ParseJSONHomework/Pods-ParseJSONHomework.release.xcconfig"; sourceTree = "<group>"; };
+		C88FFF17B193B2D60DA2247E /* Pods-ParseJSONHomework-ParseJSONHomeworkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseJSONHomework-ParseJSONHomeworkUITests.release.xcconfig"; path = "Target Support Files/Pods-ParseJSONHomework-ParseJSONHomeworkUITests/Pods-ParseJSONHomework-ParseJSONHomeworkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E310478B4B80E0950501DE7A /* Pods-ParseJSONHomeworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseJSONHomeworkTests.debug.xcconfig"; path = "Target Support Files/Pods-ParseJSONHomeworkTests/Pods-ParseJSONHomeworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88574BAF340BD4E5B858B483 /* Pods_ParseJSONHomework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A02992F4E682AE42C5663A /* Pods_ParseJSONHomeworkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21D9B12578CE82F324315667 /* Pods_ParseJSONHomework_ParseJSONHomeworkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +102,8 @@
 				75D24C5A25343C3E0040279D /* ParseJSONHomeworkTests */,
 				75D24C6525343C3E0040279D /* ParseJSONHomeworkUITests */,
 				75D24C4225343C3A0040279D /* Products */,
+				AB9D96328E677A26F535416F /* Pods */,
+				F0EB128B2687BB5939F9F9AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +151,30 @@
 			path = ParseJSONHomeworkUITests;
 			sourceTree = "<group>";
 		};
+		AB9D96328E677A26F535416F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96412A454BE86C5D5E11524D /* Pods-ParseJSONHomework.debug.xcconfig */,
+				C82DC42C2920CDA997395D7C /* Pods-ParseJSONHomework.release.xcconfig */,
+				47014CC229E6CA1044F08834 /* Pods-ParseJSONHomework-ParseJSONHomeworkUITests.debug.xcconfig */,
+				C88FFF17B193B2D60DA2247E /* Pods-ParseJSONHomework-ParseJSONHomeworkUITests.release.xcconfig */,
+				E310478B4B80E0950501DE7A /* Pods-ParseJSONHomeworkTests.debug.xcconfig */,
+				B020760102513C2C8E479E63 /* Pods-ParseJSONHomeworkTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F0EB128B2687BB5939F9F9AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14C9F3BA29CB9367CAE36191 /* Pods_ParseJSONHomework.framework */,
+				AE569630DDCAC54E9D861A15 /* Pods_ParseJSONHomework_ParseJSONHomeworkUITests.framework */,
+				1B69971A57C98C65BC442A3D /* Pods_ParseJSONHomeworkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75D24C6B25343C3E0040279D /* Build configuration list for PBXNativeTarget "ParseJSONHomework" */;
 			buildPhases = (
+				DB25C5E505F0AD1FE9D8B1A5 /* [CP] Check Pods Manifest.lock */,
 				75D24C3D25343C3A0040279D /* Sources */,
 				75D24C3E25343C3A0040279D /* Frameworks */,
 				75D24C3F25343C3A0040279D /* Resources */,
+				A7F3174A977533D1FC88B8ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75D24C6E25343C3E0040279D /* Build configuration list for PBXNativeTarget "ParseJSONHomeworkTests" */;
 			buildPhases = (
+				A511A9432CCF54E043058FA5 /* [CP] Check Pods Manifest.lock */,
 				75D24C5325343C3E0040279D /* Sources */,
 				75D24C5425343C3E0040279D /* Frameworks */,
 				75D24C5525343C3E0040279D /* Resources */,
@@ -176,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75D24C7125343C3E0040279D /* Build configuration list for PBXNativeTarget "ParseJSONHomeworkUITests" */;
 			buildPhases = (
+				842646D6C07B52E32717EE52 /* [CP] Check Pods Manifest.lock */,
 				75D24C5E25343C3E0040279D /* Sources */,
 				75D24C5F25343C3E0040279D /* Frameworks */,
 				75D24C6025343C3E0040279D /* Resources */,
+				7ED592B4BEC76D9752C6FA59 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +304,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7ED592B4BEC76D9752C6FA59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParseJSONHomework-ParseJSONHomeworkUITests/Pods-ParseJSONHomework-ParseJSONHomeworkUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParseJSONHomework-ParseJSONHomeworkUITests/Pods-ParseJSONHomework-ParseJSONHomeworkUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParseJSONHomework-ParseJSONHomeworkUITests/Pods-ParseJSONHomework-ParseJSONHomeworkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		842646D6C07B52E32717EE52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParseJSONHomework-ParseJSONHomeworkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A511A9432CCF54E043058FA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParseJSONHomeworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F3174A977533D1FC88B8ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParseJSONHomework/Pods-ParseJSONHomework-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParseJSONHomework/Pods-ParseJSONHomework-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParseJSONHomework/Pods-ParseJSONHomework-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB25C5E505F0AD1FE9D8B1A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParseJSONHomework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		75D24C3D25343C3A0040279D /* Sources */ = {
@@ -441,6 +590,7 @@
 		};
 		75D24C6C25343C3E0040279D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96412A454BE86C5D5E11524D /* Pods-ParseJSONHomework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +610,7 @@
 		};
 		75D24C6D25343C3E0040279D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C82DC42C2920CDA997395D7C /* Pods-ParseJSONHomework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +630,7 @@
 		};
 		75D24C6F25343C3E0040279D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E310478B4B80E0950501DE7A /* Pods-ParseJSONHomeworkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -501,6 +653,7 @@
 		};
 		75D24C7025343C3E0040279D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B020760102513C2C8E479E63 /* Pods-ParseJSONHomeworkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -523,6 +676,7 @@
 		};
 		75D24C7225343C3E0040279D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47014CC229E6CA1044F08834 /* Pods-ParseJSONHomework-ParseJSONHomeworkUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +697,7 @@
 		};
 		75D24C7325343C3E0040279D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C88FFF17B193B2D60DA2247E /* Pods-ParseJSONHomework-ParseJSONHomeworkUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

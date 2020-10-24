@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class TableViewController: UITableViewController {
     private var valutes:[Valute] = []
@@ -41,24 +42,38 @@ class TableViewController: UITableViewController {
 
 }
 extension TableViewController {
-func fetchValutes() {
-    guard let url = URL(string: "https://www.cbr-xml-daily.ru/daily_json.js") else { return }
-
-    URLSession.shared.dataTask(with: url) { (data, _, _) in
-        guard let data = data else { return }
-        let jsonDecoder = JSONDecoder()
-
-        do {
-            let initial = try? jsonDecoder.decode(Welcome.self, from: data)
-            let v = initial?.Valute
-            let d = v?.map{ $0.value }
+//func fetchValutes() {
+//    guard let url = URL(string: "https://www.cbr-xml-daily.ru/daily_json.js") else { return }
+//
+//    URLSession.shared.dataTask(with: url) { (data, _, _) in
+//        guard let data = data else { return }
+//        let jsonDecoder = JSONDecoder()
+//
+//        do {
+//            let initial = try? jsonDecoder.decode(Welcome.self, from: data)
+//            let v = initial?.Valute
+//            let d = v?.map{ $0.value }
+//            DispatchQueue.global().async {
+//                DispatchQueue.main.async { self.valutes = d!; self.tableView.reloadData()}
+//            }
+//        } catch let error {
+//            print(error.localizedDescription)
+//        }
+//    }.resume()
+//    }
+    func fetchValutes(){
+        let request = AF.request("https://www.cbr-xml-daily.ru/daily_json.js")
+        request.responseDecodable(of: Welcome.self) { (responce) in
+            guard let initial = responce.value else {return}
+            let v = initial.Valute
+            let d = v?.map{$0.value}
             DispatchQueue.global().async {
-                DispatchQueue.main.async { self.valutes = d!; self.tableView.reloadData()}
+                DispatchQueue.main.async {
+                    self.valutes = d!; self.tableView.reloadData()
+                }
             }
-        } catch let error {
-            print(error.localizedDescription)
         }
-    }.resume()
+        }
     }
-}
+
 
